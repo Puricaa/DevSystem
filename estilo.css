@@ -2,3 +2,73 @@
 	margin: 0;
 	padding: 0;
 }
+
+body {
+  font-family: sans-serif;
+  -webkit-font-smoothing: auto;
+  -moz-font-smoothing: auto;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: auto;
+  text-rendering: optimizeLegibility;
+  font-smooth: always;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+
+section {
+	display: grid;
+	place-content: center;
+	height: 100vh;
+	background: radial-gradient(circle, #052659, #021024);
+}
+
+.logo-title {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+}
+
+.title {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 15px;
+}
+
+.title h1{
+	font-size: 5rem;
+	background-image: linear-gradient(to right, #7DA0CA, #052659);
+	color: transparent;
+	background-clip: text;
+	filter: drop-shadow(0px 1px 1px #C1E8FF);
+}
+
+.title p {
+	font-size: 1.6em;
+	color: #7DA0CA;
+}
+
+.boton_project {
+	border: none;
+	border: 1px solid #5483B3;
+	padding: 18px 30px;
+	font-size: 1.1rem ;
+	border-radius: 8px;
+	color: #5483B3;
+	background-color: #021024;
+}
+
+/* MIS PROYECTOS */
+.Proyectos {
+	height: 100vh;
+	background-color: #888B93;
+	text-align: center;
+}
+
+.Proyectos h1 {
+	color: #C1E8FF;
+}
+h1 span {
+	color: #052659;
+}
