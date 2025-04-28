@@ -1,0 +1,41 @@
+/* TABLETS 768px */
+
+.logo_1 svg {
+	width: 88px;
+	height: 88px;
+}
+.title h1{
+	font-size: 4rem;
+}
+.title p {
+	font-size: 1.4rem;
+}
+.boton_project {
+padding: 16px 24px;
+font-weight: 800;
+}
+
+/* FOOTER */
+footer {
+	padding: 20px 48px ;
+}
+.footer-center {
+	display: flex;
+	flex-direction: row;
+	/* padding: 0 20px; */
+}
+.svg-logo svg {
+	width: 32px;
+	margin-bottom: 16px;
+}
+.title_2 h1 {
+	font-size: 2rem;
+}
+
+.redes img {
+	width: 48px;
+}
+
+.derechos-autor {
+	font-size: 1rem;
+}
