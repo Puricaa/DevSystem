@@ -50,12 +50,12 @@
 			</div>
 
 			<button class="boton_project">
-				Explorar Proyectos
+				<a href="#Proyectos">Explorar Proyectos</a>
 			</button>
 		</div>
 	</section>
 
-	<div class="Proyectos">
+	<div id="Proyectos">
 		<div>
 			<h1>Mis <span>Proyectos</span></h1>
 		</div>
@@ -93,9 +93,61 @@
 		</div>
 	</div>
 
-	<div class="contacto"> 
+	<!-- <div class="contacto"> 
 		<h1>Ponte en Contacto</h1>
-	</div>
+	</div> -->
+	<main class="contacto">
+		<div class="capa-transp">
+			<div class="centro-contact">
+				<h2>
+					Contactanos<span></span>
+				</h2>
+				
+				<form class="formulario">
+					<div>
+						<div>
+							<label>Nombre</label>
+							<input
+								type="text"
+								id="name"
+								name="name"
+								value={formData.name}
+								onChange={handleChange}
+								required
+							/>
+						</div>
+						<div>
+							<label>Email</label>
+							<input
+								type="email"
+								id="email"
+								name="email"
+								value={formData.email}
+								onChange={handleChange}
+								required
+							/>
+						</div>
+					</div>
+					<div>
+						<label htmlFor="message">Mensaje</label>
+						<textarea
+							id="message"
+							name="message"
+							rows="5"
+							value={formData.message}
+							onChange={handleChange}
+							required
+						></textarea>
+					</div>
+					<div>
+						<button type="submit">
+							Enviar Mensaje
+						</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</main>
 
 	<footer>
 		<div class="footer-center">

@@ -67,7 +67,7 @@ section {
 }
 
 /* MIS PROYECTOS */
-.Proyectos {
+#Proyectos {
 	height: 100vh;
 	background-color: #888B93;
 	text-align: center;
@@ -79,6 +79,36 @@ section {
 h1 span {
 	color: #052659;
 }
+
+/* CONTACTOS */
+main {
+	background-color: #052659;
+	padding: 2%;
+	display: flexbox;
+}
+
+.capa-transp {
+	background-color: #02102446;
+	padding: 5%;
+	border: 1px solid #C1E8FF;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px #C1E8FF;
+}
+
+.centro-contact {
+	background-color: blue;
+	height: 100vh;
+	display: grid;
+	grid-template-rows: 50px 1fr;
+}
+.centro-contact h2 {
+	background-color: yellow;
+	text-align: center;
+	font-size: 2rem;
+	font-weight: 900;
+}
+
+
 
 /* FOOTER */
 footer {
@@ -121,6 +151,7 @@ footer {
 }
 .redes img {
 	width: 32px;
+	filter: drop-shadow(1px 0px 0px #5483B3);
 }
 
 .derechos-autor {
@@ -131,48 +162,3 @@ footer {
 	color: #5483B3;
 }
 
-/* RESPONSIVE */
-/* Tablets */
-/* @media (min-width: 768px) { 
-	.logo_1 svg {
-		width: 88px;
-		height: 88px;
-	}
-	.title h1{
-		font-size: 4rem;
-	}
-	.title p {
-		font-size: 1.4rem;
-	}
-	.boton_project {
-	padding: 16px 24px;
-	font-weight: 800;
-	}
-
-	.footer-center {
-		display: flex;
-		flex-direction: row;
-		padding: 0 20px;
-	}
-	.svg-logo svg {
-		width: 48px;
-		margin-bottom: 14px;
-	}
-	.title_2 h1 {
-		font-size: 3rem;
-	}
-	.title_2 p {
-		font-size: 1rem;
-		font-weight: 600;
-	}
-} */
-
-/* Laptops */ 
-/* @media (max-width: 1024px) {
-
- } */
-
-/* Desktops grandes */ 
-/* @media (mas-width: 1280px) {
-	
-} */
