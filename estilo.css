@@ -76,10 +76,10 @@ body {
 	flex-direction: column;
 	gap: 1rem;
 }
-
+/* estilo de contenedor de proyectos */
 .ProjectsCard {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 	gap: 1rem;
 }
 
@@ -88,12 +88,12 @@ body {
 	height: 50vh;
 	display: grid;
 	grid-template-rows: repeat(2, 1fr);
-	border: 2px solid #052659;
 	border-radius: 1rem;
 }
 .sectionImg {
 	background-color: #052659;
 	border-radius: 0.8rem 0.8rem 0 0;
+	border: 2px 2px 0px 0px solid #1d4ed8 ;
 }
 .sectionImg img {
 	position: relative;
@@ -104,6 +104,7 @@ body {
 	background-color: #1F2937;
 	display: grid;
 	padding: 1rem;
+	border-radius: 0 0 0.8rem 0.8rem;
 }
 
 
