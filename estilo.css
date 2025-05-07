@@ -68,43 +68,73 @@ body {
 
 /* MIS PROYECTOS */
 #Proyectos {
-	/* height: 100vh; */
 	background-color: #7DA0CA;
-	text-align: center;
-	padding: 2rem;
-	display: flex;
-	flex-direction: column;
+	padding: 2rem 1rem;
+	display: grid;
+	grid-template-rows: 7% 80%;
 	gap: 1rem;
 }
-/* estilo de contenedor de proyectos */
+
+/* Estilo de titulo de Proyectos */
+.title-project h2 {
+	font-weight: 800;
+	font-size: 1.7rem;
+	color: #C1E8FF;
+	text-align: center;
+}
+.title-project span {
+	color: transparent;
+	background: linear-gradient(to right, #0F0C29, #1E5E98);
+	background-clip: text;
+}
+
+/* estilo de area de los proyectos */
 .ProjectsCard {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-template-columns: 100%;
 	gap: 1rem;
+	/* background-color: #1d4ed8; */
 }
 
+/* Estilo del contenedor de los proyectos */
 .containercard {
-	width: 100%;
-	height: 50vh;
 	display: grid;
-	grid-template-rows: repeat(2, 1fr);
+	grid-template-rows: 12rem auto;
 	border-radius: 1rem;
 }
+/* Estilo de la portada */
 .sectionImg {
-	background-color: #052659;
+	background-image:url(./img/portada.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	/* background: linear-gradient(to top, #0F0C29, #1E5E98); */
 	border-radius: 0.8rem 0.8rem 0 0;
-	border: 2px 2px 0px 0px solid #1d4ed8 ;
-}
-.sectionImg img {
-	position: relative;
-	width: 10rem;
 }
 
+/* Estilo de titulo y descripcion */
 .sectionScript {
 	background-color: #1F2937;
-	display: grid;
-	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	justify-content: center;
+	gap: 1.1rem;
+	padding: 1rem 2rem;
 	border-radius: 0 0 0.8rem 0.8rem;
+}
+.sectionScript h3 {
+	color: #C1E8FF;
+}
+.sectionScript p {
+	color: #7DA0CA;
+}
+
+.button-project {
+	background: none;
+	border: none;
+	color: #60A5FA;
+	font-weight: 600;
 }
 
 
@@ -119,8 +149,8 @@ body {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	padding: 1rem;
-	gap: 2rem;
+	padding: 2rem 1rem;
+	gap: 1rem;
 }
 
 /* Estilo de titulo */
@@ -129,7 +159,7 @@ body {
 }
 .sectionTitle span{
 	color: transparent;
-	background: linear-gradient(to right, #7226FF, #F042FF, #FFE5F1);
+	background: linear-gradient(to right, #7226FF, #F042FF);
 	background-clip: text;
 }
 .sectionTitle h1 {
@@ -145,7 +175,7 @@ body {
 	gap: 1rem;
 }
 .rings img {
-	width: 7rem;
+	width: 5rem;
 	border-radius: 100%;
 	border: 4px solid #5483B3;
 }
