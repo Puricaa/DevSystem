@@ -1,0 +1,9 @@
+
+
+
+/* PROYECTOS */
+.ProjectsCard {
+    display: grid;
+    grid-template-areas: "containercard";
+    grid-template-columns: repeat( 4, 1fr);
+}

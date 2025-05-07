@@ -69,10 +69,10 @@ body {
 /* MIS PROYECTOS */
 #Proyectos {
 	background-color: #7DA0CA;
-	padding: 2rem 1rem;
+	padding: 2rem 2rem;
 	display: grid;
 	grid-template-rows: 7% 80%;
-	gap: 1rem;
+	gap: 2rem;
 }
 
 /* Estilo de titulo de Proyectos */
@@ -93,7 +93,6 @@ body {
 	display: grid;
 	grid-template-columns: 100%;
 	gap: 1rem;
-	/* background-color: #1d4ed8; */
 }
 
 /* Estilo del contenedor de los proyectos */
@@ -101,13 +100,14 @@ body {
 	display: grid;
 	grid-template-rows: 12rem auto;
 	border-radius: 1rem;
+	border: 2px solid #052659;
 }
 /* Estilo de la portada */
 .sectionImg {
 	background-image:url(./img/portada.png);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: top center;
 	/* background: linear-gradient(to top, #0F0C29, #1E5E98); */
 	border-radius: 0.8rem 0.8rem 0 0;
 }
@@ -391,5 +391,8 @@ footer {
 	justify-content: center;
 	font-size: 0.8rem;
 	color: #5483B3;
+	border-top: 1px solid #5483B3;
+	padding: 1.5rem;
+	width: ;
 }
 
