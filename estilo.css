@@ -7,6 +7,20 @@ body {
   font-family: sans-serif;
 }
 
+/* MENU-BURGUE */
+#menu {
+	height: 5vh;
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	padding: 0.8rem;
+	position:fixed;
+}
+.menu-flex {
+	display: flex;
+	flex-direction: column;
+}
+
 /* PARTE DE INCIO */
 /* Estilo de la parte inicial */
 #inicio {
@@ -191,6 +205,41 @@ body {
 	font-size: 0.8rem;
 	color: #5483B3;
 }
+
+.SectionDos{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+.galeria {
+	background-color: #7DA0CA;
+	height: 50vh;
+	border-radius: 0.8rem;
+}
+
+.container_Master {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.name_3 {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+.container_skin {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 1rem;
+}
+.skin {
+	background-color: #7DA0CA;
+	height: 100%;
+
+}
+
 
 /* CONTACTOS */
 /* Estilo de body del area contacto */
